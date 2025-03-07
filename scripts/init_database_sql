@@ -1,0 +1,16 @@
+/* This scripts shows the creation of warehouseDB and also setting up three (3) schemas within the database namely Bronze, Silver and Gold. */
+
+-- switch the database to master
+USE master;
+
+-- creation of database warehouse
+CREATE DATABASE WarehouseDB;
+USE WarehouseDB;
+
+-- creation of the respective schemas
+CREATE SCHEMA bronze;
+GO
+CREATE SCHEMA silver;
+GO
+CREATE SCHEMA gold;
+GO
